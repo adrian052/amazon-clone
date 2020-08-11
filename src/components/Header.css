@@ -4,7 +4,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 100; 
 }
 
 .header__logo {
@@ -12,6 +12,7 @@
     width: 100px;
     margin: 0 20px;
     margin-top: 18px;
+    align-self: cen;
 }
 .header__nav {
     display: flex;
@@ -67,3 +68,26 @@
     height: 22px !important;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .header {
+        background-color: #131921;
+        display: block;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 100; 
+    }
+
+    .header__logo {
+        object-fit: contain;
+        width: 20%;
+        margin: 0 40%;
+        margin-top: 3%;
+        align-self: cen;
+    }
+
+    .header__search {
+        margin: 0 2%;
+    }
+}

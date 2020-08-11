@@ -32,11 +32,6 @@ function Home() {
                     price={10212.0}
                     rating={5}
                     image="https://images-na.ssl-images-amazon.com/images/I/81NbkJz9M-L._AC_SX466_.jpg" />
-                <Product id="5"
-                    title="Laptop Acer 29032, exelente para progamadores que estan experimentando con reactjs"
-                    price={23000.0}
-                    rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/81NbkJz9M-L._AC_SX466_.jpg" />
             </div>
             <div className="home__row">
                 <Product id="6"
